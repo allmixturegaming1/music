@@ -1,12 +1,12 @@
 module.exports = {
-  Admins: ["410451793143922688", "UserID"], // Admins of the bot, I don't know what this do. -Darren.
+  Admins: ["UserID"], // Admins of the bot, I don't know what this do. -Darren.
   ExpressServer: true, // If you wanted to make the website run or not
   DefaultPrefix: process.env.Prefix || "+", // Default prefix, Server Admins can change the prefix
   Port: 3000, //Which port website gonna be hosted
   SupportServer: "comming soon", // Support Server Link
-  Token: process.env.Token || "OTcxNjI4NTU4NzcyNDgyMDU4.G2FJdt.rpAcHYo4Yf8XWrslnmZFjHQ1yCOCjfI5N9dmPk", // Discord Bot Token
-  ClientID: process.env.Discord_ClientID || "971628558772482058", // Discord Client ID
-  ClientSecret: process.env.Discord_ClientSecret || "vZttO3wFslimcZdfNB9AzVnSyQW9ZrTQ", // Discord Client Secret
+  Token: process.env.Token || "", // Discord Bot Token
+  ClientID: process.env.Discord_ClientID || "", // Discord Client ID
+  ClientSecret: process.env.Discord_ClientSecret || "", // Discord Client Secret
   Scopes: ["identify", "guilds", "applications.commands"], // Discord OAuth2 Scopes
   ServerDeafen: true, // If you want bot to stay deafened
   DefaultVolume: 100, // Sets the default volume of the bot, You can change this number anywhere from 1 to 9007199254740991 (JS Integer limit. If you do set it to that, you're a monster.)
